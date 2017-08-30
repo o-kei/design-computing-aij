@@ -1,0 +1,7 @@
+>>> a = 1000
+>>> if a > 100:
+...     print('Big number')
+... else:
+...     print('Small number')
+... 
+Big number

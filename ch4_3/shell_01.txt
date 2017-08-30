@@ -1,0 +1,7 @@
+>>> lam = 1.0/12
+>>> import numpy as np
+>>> np.random.exponential(scale=1.0/lam)
+19.071896871429566
+>>> import scipy.stats as sps
+>>> sps.expon.rvs(scale=1.0/lam)
+8.1128432284991852

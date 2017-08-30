@@ -1,0 +1,3 @@
+>>> s1, s2 = 'Design1', 'Design2'
+>>> print(s1, s2)
+Design1 Design2

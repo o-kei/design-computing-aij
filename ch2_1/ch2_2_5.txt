@@ -1,0 +1,4 @@
+>>> from turtle import *
+>>> pensize(5)
+>>> pencolor('blue')
+>>> forward(400)

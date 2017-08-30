@@ -1,0 +1,12 @@
+>>> kb0.ask(expr('P & Q'))   # P ∧ Q の真理値を kb0 に聞く
+{}
+>>> kb0.ask(expr('P | Q'))   # P ∨ Q の真理値を kb0 に聞く
+{}
+>>> kb0.ask(expr('P ==> Q'))  # P → Q の真理値を kb0 に聞く
+{}
+>>> kb0.retract('P')         # P の情報を kb0 から削除する
+>>> kb0.tell(expr('~P'))     # P の真理値を False に再設定する
+>>> kb0.ask(expr('P & Q'))
+False
+>>> kb0.ask(expr('P ==> Q'))  # P → Q の真理値を再度聞く
+{}

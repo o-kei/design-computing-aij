@@ -1,0 +1,7 @@
+# archi と artifact の関係は is_a である
+>>> DG.add_edge('archi', 'artifact', type='is_a')
+>>> DG.add_edge('house', 'archi', type='is_a')
+>>> DG.add_edge('farnsworth', 'house', type='is_a')
+>>> DG.add_edge('villa_savoye', 'house', type='is_a')
+>>> DG.add_edge('archi', 'roof', type='has_a')
+>>> DG.add_edge('roof', 'rain_cover', type='is_a')

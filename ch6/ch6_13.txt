@@ -1,0 +1,4 @@
+>>> kb3.ask(expr('Need(MyHouse,y)'))[y]
+StructuralCalc
+>>> kb3.ask(expr('Need(MyHouse,StructuralCalc)'))
+{v_9: MyHouse}       # MyHouse は Need(MyHouse,StructuralCalc) を満たす

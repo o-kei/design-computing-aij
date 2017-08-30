@@ -1,0 +1,10 @@
+>>> import bpy
+>>> list(bpy.data.objects)
+[bpy.data.objects['Camera'], bpy.data.objects['Cube'], bpy.data.objects['Lamp']]
+
+>>> bpy.ops.mesh.primitive_cube_add(radius=2, location=(5,0,0))
+{'FINISHED'}
+
+>>> list(bpy.data.objects)
+[bpy.data.objects['Camera'], bpy.data.objects['Cube'], bpy.data.objects['Cube.001'], 
+    bpy.data.objects['Lamp']]

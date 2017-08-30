@@ -1,0 +1,3 @@
+>>> list(DG.nodes())   # DG に含まれる nodes を表示する
+
+['villa_savoye', 'artifact', 'roof', 'archi', 'house', 'farnsworth', 'rain_cover']

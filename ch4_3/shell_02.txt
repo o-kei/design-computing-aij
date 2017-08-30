@@ -1,0 +1,7 @@
+>>> import scipy.stats as sps
+>>> k, lam = 5.0, 5.0
+>>> sps.poisson.pmf(k, mu=lam) # pmf: probability mass function
+0.17546736976785068
+>>> k, lam = 1.0, 5.0/60
+>>> sps.poisson.pmf(k, mu=lam)
+0.076670367885776927

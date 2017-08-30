@@ -1,0 +1,2 @@
+>>> kb3.ask(expr('HasRoof(YoyogiStadium)'))
+{v_0: YoyogiStadium}

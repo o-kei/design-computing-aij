@@ -1,0 +1,7 @@
+>>> DG.add_node('artifact')          # DG にノード artifact を加える
+>>> DG.add_node('archi')
+>>> DG.add_node('roof')
+>>> DG.add_node('rain_cover')
+>>> DG.add_node('house')
+>>> DG.add_node('farnsworth')
+>>> DG.add_node('villa_savoye')

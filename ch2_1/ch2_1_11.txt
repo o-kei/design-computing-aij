@@ -1,0 +1,8 @@
+>>> def func1():
+...     for i in range(30, 0, -10):
+...         print(i)
+... 
+>>> func1()
+30
+20
+10

@@ -1,0 +1,2 @@
+>>> kb3.ask(expr('HasRoof(Tokyo)'))
+False

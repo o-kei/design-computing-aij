@@ -1,0 +1,14 @@
+>>> kb2.ask(P & Q)
+{}                         # ∧ -導入
+>>> kb2.retract('P')
+>>> kb2.retract('Q')
+>>> kb2.tell(expr('P & Q'))
+>>> kb2.ask(expr('P'))
+{}                         # ∧ -除去
+>>> kb2.retract('P')
+>>> kb2.retract('Q')
+>>> kb2.tell(expr('P | Q'))
+>>> kb2.tell(expr('P ==> R'))
+>>> kb2.tell(expr('Q ==> R'))
+>>> kb2.ask(expr('R'))
+{}                         # 二重否定除去

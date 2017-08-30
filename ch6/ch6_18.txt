@@ -1,0 +1,4 @@
+>>> list(DG.edges())   # DG に含まれる edges を表示する
+
+[('villa_savoye', 'house'), ('farnsworth', 'house'), ('roof', 'rain_cover'),
+ ('house', 'archi'), ('archi', 'artifact'), ('archi', 'roof')]

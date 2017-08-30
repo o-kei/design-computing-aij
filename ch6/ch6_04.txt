@@ -1,0 +1,14 @@
+>>> from logic import *
+>>> kb1 = PropKB()
+>>> kb1.tell(expr('P'))
+>>> kb1.tell(expr('~Q'))
+>>> kb1.ask(expr('P ==> (Q ==> P)'))
+{}
+>>> kb1.retract('P')
+>>> kb1.tell(expr('~P'))
+>>> kb1.ask(expr('P ==> (Q ==> P)'))
+{}
+>>> kb1.retract('Q')
+>>> kb1.tell(expr('Q'))
+>>> kb1.ask(expr('P ==> (Q ==> P)'))
+{}

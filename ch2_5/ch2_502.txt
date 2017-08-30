@@ -1,0 +1,11 @@
+>>> cube001 = bpy.data.objects['Cube.001']
+>>> cube001.location
+Vector((5.0, 0.0, 0.0))
+
+>>> cube001.location = (0, 0, -3)
+>>> material = bpy.data.materials.new('Red')
+>>> material.diffuse_color = (1, 0, 0)
+>>> cube001.data.materials.append(material)
+>>> cube001.select = True
+>>> bpy.ops.object.delete()
+{'FINISHED'}

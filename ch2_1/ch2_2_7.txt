@@ -1,0 +1,8 @@
+>>> from turtle import *
+>>> penup()
+>>> setpos(-300, -100)
+>>> pendown()
+>>> for i in range(5):
+...     forward(600)
+...     left(144)
+... 

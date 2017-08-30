@@ -1,0 +1,2 @@
+>>> import networkx as nx            # networkx をインポートする
+>>> DG=nx.DiGraph()                  # 有向グラフを生成する

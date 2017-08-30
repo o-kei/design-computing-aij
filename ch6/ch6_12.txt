@@ -1,0 +1,2 @@
+>>> kb3.tell(expr('WoodenHouse(MyHouse)'))
+>>> kb3.tell(expr('ThreeStoried(MyHouse)'))

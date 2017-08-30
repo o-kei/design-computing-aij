@@ -1,0 +1,5 @@
+# os モジュールをインポートし aima-python のあるフォルダに移動する
+>>> import os
+>>> os.chdir('/Users/user_name/designcomputingbook/ch6/aima-python')
+>>> from logic import *      # logic に関するモジュールをインポートする
+>>> kb0 = PropKB()           # 命題論理による知識べース kb0 を生成する

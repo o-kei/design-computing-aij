@@ -1,0 +1,8 @@
+>>> from logic import *
+>>> kb2 = PropKB()
+>>> kb2.tell(expr('P'))       # P を True に設定する
+>>> kb2.ask(expr('Q'))        # Q の真理値を kb2 に聞く
+False                         # この時点て?は Q は False （未定義）
+>>> kb2.tell(expr('P ==> Q')) # P → Q が True だと kb2 に伝える
+>>> kb2.ask(expr('Q'))
+{}                            # MP

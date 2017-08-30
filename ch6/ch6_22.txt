@@ -1,0 +1,11 @@
+>>> from myfunc import inherit_get
+>>> inherit_get(DG, 'archi', 'archi')
+archi has_a roof
+archi is_a artifact
+
+>>> inherit_get(DG, 'roof', 'roof')
+roof is_a rain_cover
+
+>>> inherit_get(DG, 'farnsworth', 'farnsworth')
+farnsworth has_a roof
+farnsworth is_a artifact

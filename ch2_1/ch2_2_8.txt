@@ -1,0 +1,8 @@
+>>> import matplotlib.pyplot as plt
+>>> plt.plot(0.3, 5.01, color='blue', marker='o')
+>>> plt.plot(1.02, 6.35, color='red', marker='D')
+>>> plt.plot(2.5, 7.4, color='yellow', marker='v')
+>>> plt.plot(3.2, 8.3, color='gray', marker='h')
+>>> plt.plot(3.97, 8.66, color='black', marker='1')
+>>> plt.plot(5.4, 10.2, color='crimson', marker='o', markersize=20)
+>>> plt.show()

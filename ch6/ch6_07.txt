@@ -1,0 +1,3 @@
+>>> from logic import *
+>>> kb3 = FolKB()          # 述語論理による知識ベース kb3 を生成する
+>>> kb3.tell(expr('Architecture(YoyogiStadium)'))

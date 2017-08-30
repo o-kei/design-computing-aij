@@ -1,0 +1,5 @@
+>>> lam = 5.0/60
+>>> a = sps.expon.cdf(11, scale=1./lam) # cdf: cumulative distribution function
+>>> b = sps.expon.cdf(13, scale=1./lam)
+>>> b - a
+0.061384229238105048

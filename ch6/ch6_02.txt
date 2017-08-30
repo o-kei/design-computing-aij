@@ -1,0 +1,6 @@
+>>> kb0.tell(expr('P'))      # P を True に設定する
+>>> kb0.ask(expr('P'))       # P の真理値を kb0 に聞く
+{}                           # {} は True を意味する
+>>> kb0.tell(expr('Q'))      # Q を True とする
+>>> kb0.ask(expr('Q'))       # Q の真理値を kb0 に聞く
+{}

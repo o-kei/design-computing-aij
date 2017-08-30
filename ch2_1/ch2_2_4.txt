@@ -1,0 +1,5 @@
+>>> import random
+>>> random.random()
+0.3368945444551623
+>>> random.random()
+0.2918789131039383

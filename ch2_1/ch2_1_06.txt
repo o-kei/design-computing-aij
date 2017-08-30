@@ -1,0 +1,5 @@
+>>> s1, s2 = 'Design1', 'Design2'
+>>> s1 + s2
+'Design1Design2'
+>>> s1 * 3
+'Design1Design1Design1'

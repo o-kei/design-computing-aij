@@ -1,0 +1,18 @@
+>>> import matplotlib.pyplot as plt  # matplotlib をインポートする
+>>> edge_labels = {}  # リンクを格納する edge_labels を用意する
+>>> for a, b, c in list(DG.edges(data='type')):
+...     edge_labels[(a, b)] = c  # リンクを edge_labels に格納する
+...
+
+
+>>> pos = nx.spring_layout(DG)  # ネットワークの表示の仕方を指定する
+# ノードの大きさ・色の指定
+>>> nx.draw_networkx_nodes(DG, pos, node_size=2000, node_color='white')
+# リンクの太さ・色の指定
+>>> nx.draw_networkx_edges(DG, pos, width=2, alpha=0.5, edge_color='black')
+# ノードのフォントの指定
+>>> nx.draw_networkx_labels(DG, pos, font_size=12, font_family='sans-serif')
+# リンクのフォントの指定
+>>> nx.draw_networkx_edge_labels(DG, pos, edge_labels, font_size=12, font_family='sans-serif')
+>>> plt.axis('off')  # 座標を表示しない
+>>> plt.show()  # ネットワーク図を表示

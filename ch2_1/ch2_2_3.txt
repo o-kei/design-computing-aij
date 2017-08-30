@@ -1,0 +1,3 @@
+>>> from math import *
+>>> cos(0)
+1.0
