@@ -15,13 +15,13 @@
 ## 書籍について
  
 ![cover](cover.png)  
-コロナ社url:  
-Amazon url:  
+コロナ社url: http://www.coronasha.co.jp/np/isbn/9784339052541/  
+Amazon url: http://amzn.asia/jfA26tH  
 出版社: コロナ社  
 言語: 日本語  
-ISBN-10:   
-ISBN-13:   
-発売日： 2017/09/??  
+ISBN-10: 433905254X  
+ISBN-13: 78-4339052541  
+発売日： 2017/09/06  
 編者: 日本建築学会　情報システム技術委員会　デザイン科学教育方法研究小委員会  
 ###著者  
 
@@ -50,7 +50,7 @@ ISBN-13:
 ## このリポジトリの目的
 
 * 『デザインコンピューティング入門 -Pythonによる建築の携帯と昨日の生成・分析・最適化-』で用いているプログラムコードを共有します。
-* 書籍初版時点のソースコードのバージョンは「　　」にあります。
+* 書籍初版時点のソースコードのバージョンは「[v_1.0](https://github.com/o-kei/design-computing-aij/releases/tag/v_1.0)」にあります。
 * 最新安定版は「[master](https://github.com/o-kei/design-computing-aij/tree/master)」です。
 * Python3.5、WindowsおよびOSXで実行確認しています。
 
@@ -76,7 +76,7 @@ ISBN-13:
 MIT
 
 ---
-以下日本語訳参考
+以下MITライセンス日本語訳参考
 https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license
 
 以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれます。
