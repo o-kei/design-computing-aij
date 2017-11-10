@@ -51,7 +51,7 @@ ISBN-13: 78-4339052541
 * 『デザインコンピューティング入門 -Pythonによる建築の携帯と昨日の生成・分析・最適化-』で用いているプログラムコードを共有します。
 * 書籍初版時点のソースコードのバージョンは「[v_1.0](https://github.com/o-kei/design-computing-aij/releases/tag/v_1.0)」にあります。
 * 最新安定版は「[master](https://github.com/o-kei/design-computing-aij/tree/master)」です。
-* Python3.5、WindowsおよびOSXで実行確認しています。
+* Python3.6、WindowsおよびOSXで実行確認しています。
 
 
 ## セットアップ方法
