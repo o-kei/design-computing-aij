@@ -36,7 +36,7 @@ for i in range(len(A)):
 fig = plt.figure()
 ax = fig.add_subplot(111, aspect='equal')
 plt.plot(points[:, 0], points[:, 1], 'o')
-poly = plt.Polygon(l, facecolor='none')
+poly = plt.Polygon(l, facecolor='none', edgecolor='black')
 ax.add_patch(poly)
 ax.tick_params(labelbottom='off', labelleft='off')
 plt.show()
