@@ -5,7 +5,6 @@ import networkx as nx
 
 def AxialMapAnalysis(graph):
     global k, TD, MD, RA, RRA, IntV
-    # d = nx.all_pairs_dijkstra_path_length(graph)
     d = dict(nx.all_pairs_dijkstra_path_length(graph))
     k = len(d)
     TD = {i: reduce(lambda x, y: x + y, d[i].values()) for i in d}
@@ -19,7 +18,7 @@ def AxialMapAnalysis(graph):
 def AxialMapAnalysis_from_adjlist(filename):
     G = nx.read_adjlist(filename, nodetype=int)
     AxialMapAnalysis(G)
-    for i in sorted(IntV):  # for i in IntV:
+    for i in sorted(IntV):
         print(i, round(MD[i], 3), round(RA[i], 3), round(IntV[i], 3))
 
 
