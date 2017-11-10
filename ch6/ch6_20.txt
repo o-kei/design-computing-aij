@@ -7,7 +7,7 @@
 
 >>> pos = nx.spring_layout(DG)  # ネットワークの表示の仕方を指定する
 # ノードの大きさ・色の指定
->>> nx.draw_networkx_nodes(DG, pos, node_size=2000, node_color='white')
+>>> nx.draw_networkx_nodes(DG, pos, node_size=2000, node_color='gray')
 # リンクの太さ・色の指定
 >>> nx.draw_networkx_edges(DG, pos, width=2, alpha=0.5, edge_color='black')
 # ノードのフォントの指定

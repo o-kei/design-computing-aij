@@ -19,7 +19,7 @@ def GlobalAxialMapAnalysis(graph):
 
 def AxialMapAnalysis(graph, radius):
     global k, TD, MD, RA, RRA, IntV
-    d = nx.all_pairs_dijkstra_path_length(graph)
+    d = dict(nx.all_pairs_dijkstra_path_length(graph))
     r = {i: list(filter(lambda n: n <= radius, d[i].values())) for i in d}
     k = {i: len(r[i]) for i in d}
     TD = {i: reduce(lambda x, y: x + y, r[i]) for i in d}
@@ -75,7 +75,8 @@ def AxialMapAnalysis_from_axiallines(filename, index, radius=float('inf')):
     fig = plt.figure(facecolor="w")
     plt.subplots_adjust(top=1.0, bottom=0.12, left=0.0, right=1.0)
     for i in S:
-        n = (v[i] - v_min) / (v_max - v_min)
+        # n = (v[i] - v_min) / (v_max - v_min)
+        n = (globals()[index][i] - v_min) / (v_max - v_min)
         plt.plot([S[i][0], S[i][2]], [S[i][1], S[i][3]],
                  color=cmap(n), linewidth=2)
     plt.axis('equal')

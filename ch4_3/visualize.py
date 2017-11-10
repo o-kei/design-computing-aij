@@ -43,6 +43,6 @@ def update(i, data):
     plt.yticks([])
     plt.title('Users and Queue: time=%03d' % tup[0])
     plt.xlabel('people num')
-    plt.scatter(x1, y1, c='white', s=80, label='queueing:%d' % tup[2])
+    plt.scatter(x1, y1, c='white', edgecolor='k', s=80, label='queueing:%d' % tup[2])
     plt.scatter(x2, y2, c='black', s=80, label='using:%d' % tup[1])
     plt.legend(loc='best')

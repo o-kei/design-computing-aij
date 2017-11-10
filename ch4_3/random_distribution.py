@@ -45,7 +45,7 @@ def histogram(x_distribution, ax, title="histogram"):
     bins = np.arange(np.floor(np.amin(x_distribution)),
                      np.ceil(np.amax(x_distribution)) + 1.0, 1.)
     n, bins, patches = ax.hist(
-        x_distribution, bins=bins, align='left', normed=1, color="gray")
+        x_distribution, bins=bins, align='left', normed=1, color="gray", edgecolor="k")
 
     ax.set_title(title, fontsize=14)
     ax.set_xlabel('value')
