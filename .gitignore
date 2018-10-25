@@ -7,3 +7,4 @@
 .python-version
 __pycache__/
 test/
+.ipynb_checkpoints/
