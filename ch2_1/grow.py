@@ -12,7 +12,7 @@ def grow(s, r):  # 文字列sと繰り返し回数rを入力
     print(ss)
     r -= 1  # 残りの繰返し回数を1減らす
     if r > 0:  # 繰返し回数が0でない時，自分自身を呼び出す
-        grow(ss, r)
+        ss = grow(ss, r)
     return ss
 
 grow('fgh', 2)  # growを2回実行
