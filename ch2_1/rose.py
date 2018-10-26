@@ -17,8 +17,6 @@ def deviding(p0, p1, r):
     return p0 * (1 - r) + p1 * r
 #-------------------- 以下は補助的な関数 --------------------------------------
 # rectangle(四角形の4頂点）
-
-
 def rectangle(points):
     [[x0, y0], [x1, y1], [x2, y2], [x3, y3]] = points
     up()
@@ -28,10 +26,9 @@ def rectangle(points):
     setpos(x2, y2)
     setpos(x3, y3)
     setpos(x0, y0)
+
 # 2点の内分点を求める．
 # deviding_point(点A,点B,内分比)
-
-
 def deviding_point(p0, p1, ratio):
     [x0, y0] = p0
     [x1, y1] = p1
@@ -41,8 +38,6 @@ def deviding_point(p0, p1, ratio):
 
 # 四角形の各辺の内分点を求める．
 # deviding_points(四角形の４頂点，内分比)
-
-
 def deviding_points(points, ratio):
     [p0, p1, p2, p3] = points
     pr0 = deviding_point(p0, p1, ratio)
